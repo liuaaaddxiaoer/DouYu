@@ -1,0 +1,6 @@
+framework module Pods_DouYu_DouYuUITests {
+  umbrella header "Pods-DouYu-DouYuUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
