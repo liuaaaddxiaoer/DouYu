@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15505" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -21,7 +21,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="GRH-QQ-ILk" customClass="DYHoverTextField">
-                    <rect key="frame" x="28" y="340" width="86" height="23"/>
+                    <rect key="frame" x="28" y="339" width="86" height="24"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="登录斗鱼" id="L8G-f1-PPe">
                         <font key="font" metaFont="system" size="20"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -43,7 +43,7 @@
                     </constraints>
                 </customView>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8nw-Z4-d7B">
-                    <rect key="frame" x="396" y="333" width="59" height="18"/>
+                    <rect key="frame" x="396" y="330" width="59" height="23"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="5秒注册&gt;" id="B49-Xh-2b0">
                         <font key="font" size="13" name="PingFangSC-Regular"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -51,7 +51,7 @@
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uJu-YR-9hN">
-                    <rect key="frame" x="329" y="333" width="63" height="18"/>
+                    <rect key="frame" x="329" y="330" width="63" height="23"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="没有账号?" id="Jqp-wR-77U">
                         <font key="font" size="13" name="PingFangSC-Regular"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -59,7 +59,7 @@
                     </textFieldCell>
                 </textField>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="19U-2F-63h" userLabel="扫描登陆更安全容器" customClass="DYLoginCornerView">
-                    <rect key="frame" x="340" y="300" width="156" height="28"/>
+                    <rect key="frame" x="340" y="297" width="156" height="28"/>
                     <subviews>
                         <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WxI-s4-luC">
                             <rect key="frame" x="20" y="6" width="15" height="15"/>
@@ -70,7 +70,7 @@
                             <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="Tgn-zE-h61"/>
                         </imageView>
                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5Hc-A4-leM">
-                            <rect key="frame" x="43" y="6" width="97" height="16"/>
+                            <rect key="frame" x="43" y="5" width="97" height="17"/>
                             <textFieldCell key="cell" lineBreakMode="clipping" title="扫码登陆更安全" id="v3n-2Y-vQN">
                                 <font key="font" metaFont="system"/>
                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -88,7 +88,7 @@
                     </constraints>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="f9S-kj-5Z8" userLabel="线">
-                    <rect key="frame" x="0.0" y="318" width="340" height="2"/>
+                    <rect key="frame" x="0.0" y="315" width="340" height="2"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="2" id="YKE-Qd-etf"/>
                     </constraints>
@@ -99,7 +99,7 @@
                     </userDefinedRuntimeAttributes>
                 </customView>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="a7U-XQ-u18" customClass="DYHoverTextField">
-                    <rect key="frame" x="28" y="271" width="66" height="19"/>
+                    <rect key="frame" x="28" y="268" width="66" height="19"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="手机登录" id="uhR-OR-20j">
                         <font key="font" metaFont="system" size="15"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -110,7 +110,7 @@
                     </userDefinedRuntimeAttributes>
                 </textField>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="zop-Ys-Wpe" userLabel="分割线宽度2">
-                    <rect key="frame" x="100" y="273" width="2" height="15"/>
+                    <rect key="frame" x="100" y="270" width="2" height="15"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="15" id="Hyi-D7-At3"/>
                         <constraint firstAttribute="width" constant="2" id="hMd-mx-esc"/>
@@ -122,10 +122,10 @@
                     </userDefinedRuntimeAttributes>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="sf9-LK-eSS" userLabel="电话+86容器">
-                    <rect key="frame" x="30" y="214" width="95" height="37"/>
+                    <rect key="frame" x="30" y="211" width="95" height="37"/>
                     <subviews>
                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ikq-jd-cDq">
-                            <rect key="frame" x="13" y="10" width="29" height="16"/>
+                            <rect key="frame" x="13" y="10" width="29" height="17"/>
                             <textFieldCell key="cell" lineBreakMode="clipping" title="+86" id="gfy-Ez-tdS">
                                 <font key="font" usesAppearanceFont="YES"/>
                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -159,7 +159,7 @@
                     </userDefinedRuntimeAttributes>
                 </customView>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Tn5-j2-iba" customClass="DYHoverTextField">
-                    <rect key="frame" x="108" y="271" width="66" height="19"/>
+                    <rect key="frame" x="108" y="268" width="66" height="19"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="昵称登录" id="vIc-nH-K68">
                         <font key="font" metaFont="system" size="15"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -167,7 +167,7 @@
                     </textFieldCell>
                 </textField>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="5LO-93-TBD" userLabel="手机号码容器">
-                    <rect key="frame" x="133" y="214" width="403" height="37"/>
+                    <rect key="frame" x="133" y="211" width="403" height="37"/>
                     <subviews>
                         <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="JM5-4J-Zla">
                             <rect key="frame" x="8" y="5" width="387" height="24"/>
@@ -189,7 +189,7 @@
                     </userDefinedRuntimeAttributes>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="r2h-ix-I2U" userLabel="输入密码容器">
-                    <rect key="frame" x="30" y="152" width="506" height="37"/>
+                    <rect key="frame" x="30" y="149" width="506" height="37"/>
                     <subviews>
                         <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="E8n-No-s42">
                             <rect key="frame" x="15" y="8" width="20" height="20"/>
@@ -245,18 +245,21 @@
                         <userDefinedRuntimeAttribute type="boolean" keyPath="dy_mainBorderStyle" value="YES"/>
                     </userDefinedRuntimeAttributes>
                 </customView>
-                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zml-VL-OM3">
-                    <rect key="frame" x="146" y="77" width="81" height="32"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Dh3-7E-go0">
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Zml-VL-OM3">
+                    <rect key="frame" x="24" y="82" width="518" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="qTN-r1-K7t"/>
+                    </constraints>
+                    <buttonCell key="cell" type="push" title="登录" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Dh3-7E-go0">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="system"/>
+                        <font key="font" size="13" name=".PingFangSC-Regular"/>
                     </buttonCell>
                 </button>
             </subviews>
             <constraints>
                 <constraint firstItem="r2h-ix-I2U" firstAttribute="trailing" secondItem="5LO-93-TBD" secondAttribute="trailing" id="0SJ-43-SyC"/>
                 <constraint firstItem="5LO-93-TBD" firstAttribute="centerY" secondItem="sf9-LK-eSS" secondAttribute="centerY" id="1jc-mc-rze"/>
+                <constraint firstItem="Zml-VL-OM3" firstAttribute="trailing" secondItem="r2h-ix-I2U" secondAttribute="trailing" id="4pA-Ng-ifW"/>
                 <constraint firstItem="YJW-pP-L89" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="10" id="AVK-E8-EHQ"/>
                 <constraint firstAttribute="trailing" secondItem="YJW-pP-L89" secondAttribute="trailing" constant="10" id="BMV-9z-IxC"/>
                 <constraint firstItem="Tn5-j2-iba" firstAttribute="centerY" secondItem="a7U-XQ-u18" secondAttribute="centerY" id="BUR-sW-22T"/>
@@ -269,6 +272,7 @@
                 <constraint firstItem="a7U-XQ-u18" firstAttribute="leading" secondItem="GRH-QQ-ILk" secondAttribute="leading" id="RC7-U3-Gkl"/>
                 <constraint firstAttribute="trailing" secondItem="HZV-CZ-eWi" secondAttribute="trailing" constant="30" id="Uz3-Gh-dpP"/>
                 <constraint firstItem="zop-Ys-Wpe" firstAttribute="leading" secondItem="a7U-XQ-u18" secondAttribute="trailing" constant="8" id="ZDl-b2-cft"/>
+                <constraint firstItem="Zml-VL-OM3" firstAttribute="leading" secondItem="r2h-ix-I2U" secondAttribute="leading" id="Zls-yx-irz"/>
                 <constraint firstItem="5LO-93-TBD" firstAttribute="height" secondItem="sf9-LK-eSS" secondAttribute="height" id="aio-e5-hbx"/>
                 <constraint firstItem="5LO-93-TBD" firstAttribute="trailing" secondItem="HZV-CZ-eWi" secondAttribute="trailing" id="by5-hO-sS3"/>
                 <constraint firstItem="f9S-kj-5Z8" firstAttribute="top" secondItem="19U-2F-63h" secondAttribute="top" constant="8" id="cux-Dy-dsw"/>
@@ -282,6 +286,7 @@
                 <constraint firstItem="8nw-Z4-d7B" firstAttribute="centerY" secondItem="HZV-CZ-eWi" secondAttribute="centerY" id="o7n-OF-hHq"/>
                 <constraint firstItem="sf9-LK-eSS" firstAttribute="top" secondItem="a7U-XQ-u18" secondAttribute="bottom" constant="20" id="q5v-eW-WyY"/>
                 <constraint firstItem="E8n-No-s42" firstAttribute="leading" secondItem="Ikq-jd-cDq" secondAttribute="leading" id="r1l-tg-Zgo"/>
+                <constraint firstItem="Zml-VL-OM3" firstAttribute="top" secondItem="r2h-ix-I2U" secondAttribute="bottom" constant="25" id="rDC-bM-qzb"/>
                 <constraint firstItem="Tn5-j2-iba" firstAttribute="leading" secondItem="zop-Ys-Wpe" secondAttribute="trailing" constant="8" id="uPN-Iz-NB6"/>
                 <constraint firstItem="r2h-ix-I2U" firstAttribute="height" secondItem="sf9-LK-eSS" secondAttribute="height" id="uuC-wo-5ge"/>
                 <constraint firstItem="HZV-CZ-eWi" firstAttribute="centerY" secondItem="GRH-QQ-ILk" secondAttribute="centerY" constant="10" id="wJl-KR-TV4"/>
